@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:text="LOG IN"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#673AB7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_marginTop="10dp"
+        android:id="@+id/animation_view"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/login1" />
+
+    <EditText
+        android:id="@+id/Email1"
+        android:hint="Email"
+        android:textSize="24sp"
+        android:autofillHints="emailAddress"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/custom"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/Password1"
+        android:hint="Password"
+        android:textSize="20sp"
+        android:autofillHints="password"
+        android:inputType="textPassword"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/custom"
+        android:paddingLeft="20dp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:backgroundTint="#9C27B0"
+        android:text="Login"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/custom"
+        android:paddingLeft="20dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="60dp"
+        android:textColor="#FF5722"
+        android:text="Do not have an account ? Signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

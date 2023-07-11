@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "715474451146",
+    "project_id": "muzik1-cee5c",
+    "storage_bucket": "muzik1-cee5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715474451146:android:3846b1accaf1d259cbd233",
+        "android_client_info": {
+          "package_name": "com.example.muzik1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715474451146-fiso942a0r2s8rpupssfre76hag024ho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxapO4uQVrz6HXy3sejIEnfe7c1ZIH2DU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715474451146-fiso942a0r2s8rpupssfre76hag024ho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

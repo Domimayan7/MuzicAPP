@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <TextView
+        android:text="SIGN UP"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#673AB7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_marginTop="10dp"
+        android:id="@+id/animation_view"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/muzik"/>
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="30dp"
+        android:hint="E-mail"
+        android:textColor="@color/black"
+        android:minHeight="20dp"
+        android:textStyle="italic"
+        android:inputType="textEmailAddress"
+        android:autofillHints="emailAddress"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20dp"
+        android:textColorHint="#120404"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/custom"
+        android:paddingLeft="20dp" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_marginTop="30dp"
+        android:hint="Password"
+        android:textColor="@color/black"
+        android:minHeight="20dp"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20dp"
+        android:textColorHint="#100505"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/custom"
+        android:paddingLeft="20dp" />
+
+
+    <EditText
+        android:id="@+id/confermpassword"
+        android:layout_marginTop="30dp"
+        android:hint="Conf_password"
+        android:textColor="@color/black"
+        android:minHeight="20dp"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20dp"
+        android:textColorHint="#070505"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/custom"
+        android:paddingLeft="20dp"/>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Signup"
+        android:backgroundTint="#FF9800"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/custom"
+        android:paddingLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Login"
+        android:backgroundTint="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:textColor="#2196F3"/>
+
+
+
+
+
+</LinearLayout>
